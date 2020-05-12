@@ -1,0 +1,10 @@
+127.0.0.1 - - [08/Mar/2020:12:32:37 -0700] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [08/Mar/2020:12:33:13 -0700] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [08/Mar/2020:12:33:13 -0700] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [08/Mar/2020:12:33:31 -0700] "GET /CustomerAngular/index.html HTTP/1.1" 200 670
+0:0:0:0:0:0:0:1 - - [08/Mar/2020:12:33:31 -0700] "GET /CustomerAngular/js/angulardemo.js HTTP/1.1" 200 286
+0:0:0:0:0:0:0:1 - - [08/Mar/2020:12:33:31 -0700] "GET /CustomerAngular/lib/angular.min.js HTTP/1.1" 200 162857
+0:0:0:0:0:0:0:1 - - [08/Mar/2020:12:33:37 -0700] "GET /CustomerAngular/index.html HTTP/1.1" 200 670
+0:0:0:0:0:0:0:1 - - [08/Mar/2020:12:33:37 -0700] "GET /CustomerAngular/lib/angular.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Mar/2020:12:33:37 -0700] "GET /CustomerAngular/js/angulardemo.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Mar/2020:12:34:16 -0700] "GET /CustomerAngular/index.html HTTP/1.1" 200 679

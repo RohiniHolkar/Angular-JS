@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html ng-app="demoApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>AngularJs Demo</title>
+<script src="lib/angular.min.js"></script>
+<script src="js/angulardemo.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		var app = angular.module("demoApp", []);
+		app.controller("cont", function($scope){
+			$scope.obj = {};
+			$scope.obj.title = "Welcome";
+		});
+	</script>
+	<h4>Hello {{obj.title}}</h4>
+	<div ng-controller="cont">
+		<input type="text" ng-model="name">
+		 {{name}}
+	</div>
+</body>
+</html>

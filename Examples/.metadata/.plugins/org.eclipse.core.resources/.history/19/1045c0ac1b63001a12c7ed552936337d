@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html ng-app="invoice2">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>AngularJs Demo</title>
+<script src="js/angular.min.js"></script>
+<script src="js/finance2.js"></script>
+<script src="js/invoice2.js"></script>
+</head>
+<body>
+	<div  ng-controller="InvoiceController as invoice">
+		<b>Invoice:</b>
+		<div>
+			Quantity: <input type="number" min="0" ng-model="invoice.qty"
+				required>
+		</div>
+		<div>
+			Costs: <input type="number" min="0" ng-model="invoice.cost" required>
+			<select ng-model="invoice.inCurr">
+				<option ng-repeat="c in invoice.currencies">{{c}}</option>
+			</select>
+		</div>
+		<div>
+			<b>Total:</b> <span ng-repeat="c in invoice.currencies">
+				{{invoice.total(c) | currency:c}} </span><br>
+			<button class="btn" ng-click="invoice.pay()">Pay</button>
+		</div>
+	</div>
+</body>
+</html>

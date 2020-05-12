@@ -1,0 +1,3 @@
+0:0:0:0:0:0:0:1 - - [09/Mar/2020:14:42:42 -0700] "GET /CustomerAngular/index.html HTTP/1.1" 200 710
+0:0:0:0:0:0:0:1 - - [09/Mar/2020:14:42:42 -0700] "GET /CustomerAngular/lib/angular.min.js HTTP/1.1" 200 162857
+0:0:0:0:0:0:0:1 - - [09/Mar/2020:14:42:43 -0700] "GET /CustomerAngular/js/angulardemo.js HTTP/1.1" 200 286

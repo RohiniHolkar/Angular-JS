@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Customer</title>
+</head>
+<script type="text/javascript">
+	function customer(){
+		this.custName = "Rohini";
+		this.custCode = "100";
+	}
+	var cust = new customer();
+	
+	function objtoUi(){
+		cust.custName = document.getElementById("custName");
+		cust.custCode = document.getElementById("custCode");
+	}
+	function UitoObj(){
+		 document.getElementById("custName").innerHtml = cust.custName;
+		 document.getElementById("custCode").innerHtml = cust.custCode;
+	}
+	
+</script>
+<body>
+	<div id="custScreen">
+			Customer Name : <input type="text" id="custName">
+			Customer Code : <input type="text" id="custCode">
+			<div id="custNameDiv"></div>
+			<div id="custCodeDic"></div>
+	</div>
+</body>
+</html>

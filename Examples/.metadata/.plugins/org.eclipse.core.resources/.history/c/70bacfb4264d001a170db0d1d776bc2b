@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Customer</title>
+</head>
+<script type="text/javascript"></script>
+<body>
+	<div id="custScreen">
+			Customer Name : <input type="text" id="custName">
+			Customer Code : <input type="text" id="custCode">
+			<div id="custNameDiv"></div>
+			<div id="custCodeDic"></div>
+	</div>
+</body>
+</html>

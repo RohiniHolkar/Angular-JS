@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+C:\Users\rohin\Project\Workspaces\Study\Angular JS\Examples\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1948855006.index
+4043012291.index
+861649561.index
+1158460472.index
+2674307740.index
+118088170.index
+756882058.index
+4043012291.index
